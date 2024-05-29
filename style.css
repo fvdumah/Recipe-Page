@@ -82,14 +82,9 @@ h1 {
     color: #7A284E;
   }
 
-  .prep span {
-    /* padding-left: 1rem; */
-    font-weight: bold;
-  }
+   span {
 
-  .prep li {
-    margin-bottom: .5em;
-    padding-left: 1rem;
+    font-weight: bold;
   }
 
   h2 {
@@ -107,6 +102,15 @@ h1 {
 li {
   margin-bottom: .5em;
   padding-left: 1rem;
+}
+
+.prep li {
+  margin-left: 1rem;
+}
+
+.prep li::not(:last-child), .instructions li::not(:last-child), .ingredients li::not(:last-child)
+{
+  margin-bottom: 0;
 }
 
 li::marker {
