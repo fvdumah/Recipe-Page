@@ -100,12 +100,13 @@ h1 {
   }
 
   ul, ol {
-    list-style-position: inside;
+   margin-left: 1rem;
     padding-left: 0;
 }
 
 li {
   margin-bottom: .5em;
+  padding-left: 1rem;
 }
 
 li::marker {
