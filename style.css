@@ -99,8 +99,61 @@ h1 {
     padding-left: 0;
 }
 
+li {
+  margin-bottom: .5em;
+}
+
 li::marker {
   color: #854632;
-  margin: 1em;
+    font-weight: bold;
 }
+
+.ingredients {
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #E3DDD7;
+}
+
+.instructions {
+  margin-top: 2em;
+  border-bottom: 1px solid #E3DDD7;
+  padding-bottom: 1.5em;
+}
+
+.nutrition {
+  margin-top: 2em;
+  padding-bottom: 1.5em;
+}
+
+.nutrition p {
+  margin-bottom: 1.5em;
+}
+
+/* Table Styling */
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+
+td{
+  padding: .75em 0;
+}
+
+td + td {
+ color: #854632;
+ font-weight: bold;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+  border-bottom: 1px solid #E3DDD7;
+}
+
+tr:last-child {
+  border: none;
+}
+
 
