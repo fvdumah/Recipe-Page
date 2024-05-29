@@ -44,6 +44,10 @@
     color: #5F564D;
     line-height: 150%;
   }
+
+  section {
+    background-color: #FFF;
+  }
   
   main {
     padding: 2em;
@@ -156,4 +160,40 @@ tr:last-child {
   border: none;
 }
 
+.omelette-desktop {
+  display: none;
+}
 
+
+@media screen and (min-width: 900px) {
+  main {
+    background-color: #FFF;
+    max-width: 800px;
+    border-radius: 1.5em;
+  }
+
+  body {
+    background-color: #F3E5D7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7.5em 0;
+  }
+
+  .omelette-mobile {
+    display: none;
+  }
+
+  .omelette-desktop {
+    display: block;
+    margin-bottom: 2.5em;
+    border-radius: .75rem;
+
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+
+  
