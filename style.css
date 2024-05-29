@@ -83,12 +83,13 @@ h1 {
   }
 
   .prep span {
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
     font-weight: bold;
   }
 
   .prep li {
     margin-bottom: .5em;
+    padding-left: 1rem;
   }
 
   h2 {
